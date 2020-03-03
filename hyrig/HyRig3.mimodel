@@ -1,0 +1,535 @@
+{
+	"name": "male base",
+	"texture": "HyRigTexture.png",
+	"texture_size": [ 256, 256 ],
+	"player_skin": true,
+	"scale": [ 0.25, 0.25, 0.25 ],
+	"parts": [
+		{
+			"name": "pelvis",
+			"position": [ 0, 50, 0 ],
+			"show_position": true,
+			"shapes": [
+				{
+					"type": "block",
+					"from": [ -13, 0, -9 ],
+					"to": [ 13, 10, 9 ],
+					"scale": [ 1.01, 1.01, 1.01 ],
+					"uv": [ 136, 93 ]
+				}
+			],
+			"parts": [
+				{
+					"name": "body",
+					"position": [ 0, 10, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -13, 0, -9 ],
+							"to": [ 13, 14, 9 ],
+							"uv": [ 66, 78 ]
+						}
+					],
+					"parts": [
+						{
+							"name": "chest",
+							"position": [ 0, 12, 0 ],
+							"shapes": [
+								{
+									"type": "block",
+									"from": [ -2, 0, -1.5 ],
+									"to": [ 2, 2, 1.5 ],
+									"position": [ 0, 22, 0 ],
+									"scale": [ 3.775, 3.775, 3.775 ],
+									"uv": [ 66, 6 ]
+								},
+								{
+									"type": "block",
+									"from": [ -14, 0, -10 ],
+									"to": [ 14, 22, 10 ],
+									"uv": [ 140, 53 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "head",
+									"position": [ 0, 25, 0 ],
+									"shapes": [
+										{
+											"type": "block",
+											"from": [ -15, 0, -15 ],
+											"to": [ 13, 28, 13 ],
+											"position": [ 1, 0, 0 ],
+											"uv": [ 31, 32 ]
+										},
+										{
+											"type": "block",
+											"from": [ -4, -4.5, -2 ],
+											"to": [ 0, 4.5, 2 ],
+											"position": [ -13, 11, 0 ],
+											"rotation": [ 0, 0, 5 ],
+											"uv": [ 18, 21 ]
+										},
+										{
+											"description": "_2",
+											"type": "block",
+											"texture_mirror": true,
+											"from": [ 0, -4.5, -2 ],
+											"to": [ 4, 4.5, 2 ],
+											"position": [ 13, 11, 0 ],
+											"rotation": [ 0, 0, -5 ],
+											"uv": [ 18, 21 ]
+										},
+										{
+											"type": "block",
+											"invert": true,
+											"from": [ -14, 0, -1.5 ],
+											"to": [ 14, 28, 1.5 ],
+											"position": [ 0, 0, 11 ],
+											"uv": [ 123, 3 ]
+										},
+										{
+											"type": "plane",
+											"from": [ -6, -6, 0 ],
+											"to": [ 6, 6, 8 ],
+											"position": [ -8, 11, 12 ],
+											"scale": [ 0.8, 0.8, 0.8 ],
+											"uv": [ 18, 5 ]
+										},
+										{
+											"description": "_2",
+											"type": "plane",
+											"from": [ -6, -6, 0 ],
+											"to": [ 6, 6, 8 ],
+											"position": [ 7, 11, 12 ],
+											"scale": [ 0.8, 0.8, 0.8 ],
+											"uv": [ 18, 5 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "mouth",
+											"position": [ 0, 4, 13 ],
+											"show_position": true,
+											"parts": [
+												{
+													"name": "default",
+													"position": [ 0, 0, 0 ],
+													"shapes": [
+														{
+															"type": "plane",
+															"from": [ -5, -1.5, 0 ],
+															"to": [ 5, 1.5, 8 ],
+															"uv": [ 5, 63 ]
+														}
+													]
+												},
+												{
+													"name": "frown",
+													"position": [ 0, 0, 0 ],
+													"shapes": [
+														{
+															"type": "plane",
+															"from": [ -6, -1.5, 0 ],
+															"to": [ 6, 1.5, 8 ],
+															"uv": [ 23, 63 ]
+														}
+													]
+												},
+												{
+													"name": "teeth_wide",
+													"position": [ 0, 0, 0 ],
+													"shapes": [
+														{
+															"type": "plane",
+															"from": [ -7, -3, 0 ],
+															"to": [ 7, 3, 8 ],
+															"scale": [ 1, 0.875, 1 ],
+															"uv": [ 3, 71 ]
+														}
+													]
+												},
+												{
+													"name": "shock_small",
+													"position": [ 0, 0, 0 ],
+													"shapes": [
+														{
+															"type": "plane",
+															"from": [ -7, -2, 0 ],
+															"to": [ 7, 3, 8 ],
+															"uv": [ 22, 70 ]
+														}
+													]
+												},
+												{
+													"name": "scream",
+													"position": [ 0, 0, 0 ],
+													"shapes": [
+														{
+															"type": "plane",
+															"from": [ -9, -3, 0 ],
+															"to": [ 9, 3, 8 ],
+															"scale": [ 1, 0.875, 1 ],
+															"uv": [ 1, 80 ]
+														}
+													]
+												}
+											]
+										},
+										{
+											"name": "eyes",
+											"position": [ 0, 0, 0 ],
+											"parts": [
+												{
+													"name": "pupil_right",
+													"position": [ -8, 12, 14.5 ],
+													"show_position": true,
+													"shapes": [
+														{
+															"type": "plane",
+															"from": [ -3, -3, 0 ],
+															"to": [ 3, 3, 8 ],
+															"position": [ 1, 0, -2 ],
+															"scale": [ 0.8, 0.8, 0.8 ],
+															"uv": [ 12, 15 ]
+														}
+													]
+												},
+												{
+													"name": "pupil_left",
+													"position": [ 8, 12, 14.5 ],
+													"show_position": true,
+													"shapes": [
+														{
+															"description": "_2",
+															"type": "plane",
+															"from": [ -3, -3, 0 ],
+															"to": [ 3, 3, 8 ],
+															"position": [ -1, 0, -2 ],
+															"scale": [ 0.8, 0.8, 0.8 ],
+															"uv": [ 12, 15 ]
+														}
+													]
+												},
+												{
+													"name": "eyebrows_right",
+													"position": [ -7.5, 16, 15.25 ],
+													"show_position": true,
+													"shapes": [
+														{
+															"type": "plane",
+															"texture_mirror": true,
+															"from": [ -5.5, 0, 0 ],
+															"to": [ 5.5, 2, 8 ],
+															"position": [ 0, 0, -2 ],
+															"uv": [ 92, 2 ]
+														}
+													],
+													"parts": [
+														{
+															"name": "thick_r",
+															"position": [ 0, 0, 0 ],
+															"shapes": [
+																{
+																	"type": "plane",
+																	"texture_mirror": true,
+																	"from": [ -5.5, -1.5, 0 ],
+																	"to": [ 5.5, 1.5, 8 ],
+																	"position": [ 0, 1.5, -2 ],
+																	"uv": [ 105, 1 ]
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "eyebrows_left",
+													"position": [ 7.5, 16, 15.25 ],
+													"show_position": true,
+													"shapes": [
+														{
+															"description": "_2",
+															"type": "plane",
+															"from": [ -5.5, 0, 0 ],
+															"to": [ 5.5, 2, 8 ],
+															"position": [ 0, 0, -2 ],
+															"uv": [ 92, 2 ]
+														}
+													],
+													"parts": [
+														{
+															"name": "thick_l",
+															"position": [ 0, 0, 0 ],
+															"shapes": [
+																{
+																	"description": "_2",
+																	"type": "plane",
+																	"from": [ -5.5, -1.5, 0 ],
+																	"to": [ 5.5, 1.5, 8 ],
+																	"position": [ 0, 1.5, -2 ],
+																	"uv": [ 105, 1 ]
+																}
+															]
+														}
+													]
+												},
+												{
+													"name": "eyeclop_right_up",
+													"position": [ -8, 14, 14.75 ],
+													"shapes": [
+														{
+															"type": "plane",
+															"from": [ -5, 0, 0 ],
+															"to": [ 5, 7, 8 ],
+															"position": [ 0, 0, -2 ],
+															"uv": [ 90, 19 ]
+														}
+													]
+												},
+												{
+													"name": "eyeclop_right_down",
+													"position": [ -8, 8, 14.75 ],
+													"shapes": [
+														{
+															"description": "_2",
+															"type": "plane",
+															"from": [ -5, -4, 0 ],
+															"to": [ 5, 0, 8 ],
+															"position": [ 0, 0, -2 ],
+															"uv": [ 90, 26 ]
+														}
+													]
+												},
+												{
+													"name": "eyeclop_left_up",
+													"position": [ 8, 14, 14.75 ],
+													"shapes": [
+														{
+															"description": "_2",
+															"type": "plane",
+															"from": [ -5, 0, 0 ],
+															"to": [ 5, 7, 8 ],
+															"position": [ 0, 0, -2 ],
+															"uv": [ 90, 19 ]
+														}
+													]
+												},
+												{
+													"name": "eyeclop_left_down",
+													"position": [ 8, 8, 14.75 ],
+													"shapes": [
+														{
+															"description": "_2_2",
+															"type": "plane",
+															"from": [ -5, -4, 0 ],
+															"to": [ 5, 0, 8 ],
+															"position": [ 0, 0, -2 ],
+															"uv": [ 90, 26 ]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "shoulder_right",
+									"position": [ -14, 16, 0 ],
+									"show_position": true,
+									"rotation": [ 5, 0, -5 ],
+									"shapes": [
+										{
+											"description": "_2",
+											"type": "block",
+											"texture_mirror": true,
+											"from": [ -6, -15, -2 ],
+											"to": [ 6, 5, 6 ],
+											"rotation": [ 0, -90, 0 ],
+											"uv": [ 194, 8 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "arm_right",
+											"position": [ -2, -14, 0 ],
+											"rotation": [ -10, 0, 0 ],
+											"shapes": [
+												{
+													"description": "_2_2",
+													"type": "block",
+													"texture_mirror": true,
+													"from": [ -6, -16, -4 ],
+													"to": [ 6, 0, 4 ],
+													"rotation": [ 0, -90, 0 ],
+													"scale": [ 1.01, 1.01, 1.01 ],
+													"uv": [ 204, 36 ]
+												}
+											],
+											"parts": [
+												{
+													"name": "hand_right",
+													"position": [ 0, -14, 0 ],
+													"rotation": [ -5, 0, 5 ],
+													"shapes": [
+														{
+															"description": "_2",
+															"type": "block",
+															"from": [ -5, -13, -7 ],
+															"to": [ 5, -1, 7 ],
+															"rotation": [ 0, -180, 0 ],
+															"uv": [ 216, 75 ]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "shoulder_left",
+									"position": [ 14, 16, 0 ],
+									"show_position": true,
+									"rotation": [ 5, 0, 5 ],
+									"shapes": [
+										{
+											"type": "block",
+											"from": [ -6, -15, -2 ],
+											"to": [ 6, 5, 6 ],
+											"rotation": [ 0, 90, 0 ],
+											"uv": [ 194, 8 ]
+										}
+									],
+									"parts": [
+										{
+											"name": "arm_left",
+											"position": [ 2, -14, 0 ],
+											"rotation": [ -10, 0, 0 ],
+											"shapes": [
+												{
+													"description": "_2",
+													"type": "block",
+													"from": [ -6, -16, -4 ],
+													"to": [ 6, 0, 4 ],
+													"rotation": [ 0, 90, 0 ],
+													"scale": [ 1.01, 1.01, 1.01 ],
+													"uv": [ 204, 36 ]
+												}
+											],
+											"parts": [
+												{
+													"name": "hand_left",
+													"position": [ 0, -14, 0 ],
+													"rotation": [ -5, 0, -5 ],
+													"shapes": [
+														{
+															"type": "block",
+															"texture_mirror": true,
+															"from": [ -5, -13, -7 ],
+															"to": [ 5, -1, 7 ],
+															"rotation": [ 0, -180, 0 ],
+															"uv": [ 216, 75 ]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "hip_right",
+					"position": [ -6.5, 0, 0 ],
+					"rotation": [ 0, -5, -5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -6, -16, -7 ],
+							"to": [ 6, 0, 7 ],
+							"uv": [ 206, 103 ]
+						}
+					],
+					"parts": [
+						{
+							"name": "leg_right",
+							"position": [ 0, -16, 6 ],
+							"shapes": [
+								{
+									"type": "block",
+									"from": [ -5, -27, -12 ],
+									"to": [ 5, 1, 0 ],
+									"uv": [ 160, 115 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "feet_right",
+									"position": [ 0, -27, -6 ],
+									"rotation": [ 0, 0, 5 ],
+									"shapes": [
+										{
+											"type": "block",
+											"from": [ -7, -7, -8 ],
+											"to": [ 7, 1, 12 ],
+											"uv": [ 90, 112 ]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "hip_left",
+					"position": [ 6.5, 0, 0 ],
+					"rotation": [ 0, 5, 5 ],
+					"shapes": [
+						{
+							"description": "_2",
+							"type": "block",
+							"texture_mirror": true,
+							"from": [ -6, -16, -7 ],
+							"to": [ 6, 0, 7 ],
+							"uv": [ 206, 103 ]
+						}
+					],
+					"parts": [
+						{
+							"name": "leg_left",
+							"position": [ 0, -16, 6 ],
+							"shapes": [
+								{
+									"description": "_2",
+									"type": "block",
+									"texture_mirror": true,
+									"from": [ -5, -27, -12 ],
+									"to": [ 5, 1, 0 ],
+									"uv": [ 160, 115 ]
+								}
+							],
+							"parts": [
+								{
+									"name": "feet_left",
+									"position": [ 0, -27, -6 ],
+									"rotation": [ 0, 0, -5 ],
+									"shapes": [
+										{
+											"description": "_2",
+											"type": "block",
+											"texture_mirror": true,
+											"from": [ -7, -7, -8 ],
+											"to": [ 7, 1, 12 ],
+											"uv": [ 90, 112 ]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
