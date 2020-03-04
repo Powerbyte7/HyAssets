@@ -1,0 +1,6 @@
+# Made in Blockbench 3.3.1
+newmtl 0
+map_Kd potion.png 
+newmtl 1
+map_Kd potion_fluid.png 
+newmtl none

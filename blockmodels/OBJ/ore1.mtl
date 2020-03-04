@@ -1,0 +1,6 @@
+# Made in Blockbench 3.3.1
+newmtl 0
+map_Kd stone.png 
+newmtl 1
+map_Kd gold_small.png 
+newmtl none

@@ -1,0 +1,4 @@
+# Made in Blockbench 3.3.1
+newmtl all
+map_Kd leaves.png 
+newmtl none

@@ -1,0 +1,6 @@
+# Made in Blockbench 3.3.1
+newmtl 1
+map_Kd wood_small.png 
+newmtl 2
+map_Kd wood_small2.png 
+newmtl none

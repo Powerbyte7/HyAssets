@@ -1,0 +1,6 @@
+# Made in Blockbench 3.3.1
+newmtl 0
+map_Kd campfire_fire.png 
+newmtl 1
+map_Kd torch.png 
+newmtl none
