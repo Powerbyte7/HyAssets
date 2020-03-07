@@ -1,2 +1,1 @@
-# HyAssets
-HyAssets is an archive of Hytale models and textures made for animation and renders
+# ![HyAssets showcase](https://github.com/Powerbyte7/HyAssets/blob/master/HyAssetsShowcase.png)
